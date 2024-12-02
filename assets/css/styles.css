@@ -1,0 +1,44 @@
+.navbar-brand, .nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #0066CC !important;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-0%, -50%); 
+    text-align: center; 
+    color: white; 
+}
+
+.list-group-item {
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#footer{
+    background-color:  #020828; 
+    color: white;
+}
+
+#navbar{
+    background-color: #020828; 
+    color: white;
+}
+
+#linkedin{
+    
+    color: white;
+    border-radius: 100px;
+    border-color: white;
+    color: white;
+
+}

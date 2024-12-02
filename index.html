@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <script src="assets/js/index.js"></script>
+    <link rel="icon" type="image/svg+xml" href="assets/img/code-outline.svg">
+</head>
+
+<body>
+    <div id="mainContent" class="main-content">
+
+        <section id="inicio">
+            <div class="hero-image position-relative">
+                <img src="assets/img/Screen.jpg" class="img-fluid w-100" alt="Imagen Horizontal">
+                <div class="hero-text">
+                    <h1 class="">Desarrollo de Soluciones Tecnológicas</h1>
+                    <button type="button" id="contactame" class="btn btn-primary">Contactame!</button>
+                </div>
+            </div>
+        </section>
+
+
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+            <div class="container">
+                <a href="https://www.linkedin.com/in/dvillarroelcl" target="_blank" id="linkedin">
+                    <i class="bi bi-linkedin"></i> LinkedIn
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#aboutme">Sobre Mí</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#proyects">Proyectos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact" id="contactnav">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section id="aboutme" class="py-5 d-flex justify-content-center align-items-center">
+            <div class="container text-center">
+                <div class="row justify-content-center">
+                    <div class="col-md-3">
+                        <img src="assets/img/David.png" class="img-fluid rounded-circle mb-3">
+                        <h5>David Villarroel</h5>
+                        <p>Ingeniero Civil en Computación e Informática</p>
+                        <button type="button" id="sobremi" class="btn btn-info">
+                            Sobre Mí
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal fade" id="myinformation" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ponencia1ModalLabel">David Villarroel - Ingeniero Civil en
+                            Computación e Informática</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Ingeniero Civil en Computación e Informática con más de 9 años de experiencia en diseño,
+                            implementación y mantenimiento de soluciones tecnológicas adaptadas a diversos sectores.
+                            Destaca como capacitador en seguridad privada y consultor en sistemas tecnológicos críticos,
+                            ofreciendo una combinación de conocimientos técnicos avanzados y habilidades pedagógicas
+                            para el
+                            desarrollo de soluciones efectivas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>      
+
+        <section id="skills" class="py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-4">Mis Habilidades</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <strong>Infraestructura TI:</strong> Diseño y gestión de redes LAN/WLAN, control de
+                                acceso y asistencia.
+                            </li>
+                            <li class="list-group-item">
+                                <strong>CCTV:</strong> Experto en diseño, instalación, mantenimiento y capacitación de
+                                sistemas de Circuito Cerrado de Televisión.
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Capacitación y Liderazgo:</strong> Experiencia impartiendo cursos OS10 en
+                                sistemas de alarmas y comunicación para seguridad privada.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <strong>Desarrollo y Análisis:</strong> Desarrollo de sistemas para la exportación de
+                                informes, consultas SQL, y soluciones tecnológicas educativas innovadoras.
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Herramientas de Monitoreo:</strong> Configuración de servidores con Nagios y
+                                administración de backups con HP Data Protector.
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Programación:</strong> Conocimientos en Python y bases de datos Oracle.
+                            </li>
+                            <li class="list-group-item">
+                                <strong>Educación Inclusiva:</strong> Estrategias de trabajo con estudiantes con TEA en
+                                contextos escolares diversos.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyects" class="py-5">
+            <div class="container text-center">
+                <h2 class="mb-4">Proyectos Realizados</h2>
+                <div class="row">
+                   
+                    <div class="col-md-6 mb-4">
+                        <div class="card p-3 shadow">
+                            <h4>Circuito Cerrado de Televisión (CCTV) - Hospital de Quellón</h4>
+                            <p>Diseño, implementación y mantenimiento del sistema CCTV para garantizar seguridad y
+                                monitoreo eficiente en instalaciones hospitalarias.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="card p-3 shadow">
+                            <h4>Infraestructura TI - Corporación Educacional Gabriela Mistral</h4>
+                            <p>Gestión de redes LAN/WLAN, implementación de laboratorios móviles y desarrollo de salas
+                                multisensoriales para estudiantes con NEE.</p>
+                        </div>
+                    </div>
+                   
+                    <div class="col-md-6 mb-4">
+                        <div class="card p-3 shadow">
+                            <h4>Capacitación en Seguridad Privada - Cursos OS10</h4>
+                            <p>Diseño e impartición de cursos en sistemas de alarmas y comunicación para el sector de
+                                seguridad privada.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="card p-3 shadow">
+                            <h4>Sistemas Internos - Centro Tecnológico Minero</h4>
+                            <p>Implementación y monitoreo de servidores con Nagios, copias de seguridad con HP Data
+                                Protector y desarrollo de sistemas de informes.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="card p-3 shadow">
+                            <h4>Soluciones Educativas Innovadoras</h4>
+                            <p>Desarrollo de herramientas tecnológicas educativas que incluyen tablets y notebooks,
+                                mejorando procesos de enseñanza en aulas modernas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="card p-3 shadow">
+                            <h4>Automatización de Consultas SQL</h4>
+                            <p>Extracción de datos clave mediante consultas SQL en bases de datos Oracle, optimizando la
+                                generación de informes empresariales.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Contacto</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Nombre:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Teléfono:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Correo:</label>
+                                <input type="text" class="form-control" id="recipient-name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message-text" class="col-form-label">Mensaje:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="button" id="enviarcontacto" class="btn btn-primary">Enviar Mensaje</button>
+                    </div>
+                </div>
+            </div>
+        </div>        
+
+        <footer class="text-center py-3" id="footer">
+            <div class="container text-center mt-5">
+                <a href="https://www.linkedin.com/in/dvillarroelcl" target="_blank" class="btn btn-primary">
+                    <i class="bi bi-linkedin"></i> LinkedIn
+                </a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+</body>
+</html>
