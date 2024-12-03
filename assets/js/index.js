@@ -9,7 +9,7 @@ $("#contactame").on("click", function() {
       })
 
       $("#enviarcontacto").on("click", function() {
-        
+        console.log("editando")
         let nombre = document.getElementById('nombre').value
         let telefono = document.getElementById('telefono').value
         let correo = document.getElementById('correo').value
