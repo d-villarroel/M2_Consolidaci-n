@@ -182,7 +182,6 @@
 
 
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <form>
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -192,30 +191,30 @@
                     <div class="modal-body">
                         <form>
                             <div class="mb-3">
-                                <label for="recipient-name" class="col-form-label">Nombre:</label>
-                                <input type="text" class="form-control" id="recipient-name" require>
+                                <label for="name" class="col-form-label">Nombre:</label>
+                                <input type="text" id="nombre" class="form-control" id="name" required>
                             </div>
                             <div class="mb-3">
-                                <label for="recipient-name" class="col-form-label">Teléfono:</label>
-                                <input type="number" class="form-control" id="recipient-name" require>
+                                <label for="telefono" class="col-form-label">Teléfono:</label>
+                                <input type="number" class="form-control" id="telefono" required>
                             </div>
                             <div class="mb-3">
-                                <label for="recipient-name" class="col-form-label">Correo:</label>
-                                <input type="email" class="form-control" id="recipient-name" require>
+                                <label for="correo" class="col-form-label">Correo:</label>
+                                <input type="email" class="form-control" id="correo" required>
                             </div>
                             <div class="mb-3">
-                                <label for="message-text" class="col-form-label">Mensaje:</label>
-                                <textarea class="form-control" id="message-text"></textarea>
+                                <label for="mensaje" class="col-form-label">Mensaje:</label>
+                                <textarea class="form-control" id="mensaje"></textarea>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="submit" id="enviarcontacto" class="btn btn-primary">Enviar Mensaje</button>
                             </div>
                         </form>
                     </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        <button type="submit" id="enviarcontactos" class="btn btn-primary">Enviar Mensaje</button>
-                    </div>
+                   
                 </div>
             </div>
-                </form>
         </div>        
 
         <footer class="text-center py-3" id="footer">
