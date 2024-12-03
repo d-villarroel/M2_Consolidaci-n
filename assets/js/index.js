@@ -19,7 +19,7 @@ $("#contactame").on("click", function() {
           alert("ingrese datos")
         }else{
           $("#exampleModal").modal('hide');
-          alert("Proto de contactaremos")
+          alert("Pronto de contactaremos")
         }
         
       })
