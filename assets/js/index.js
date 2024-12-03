@@ -9,8 +9,18 @@ $("#contactame").on("click", function() {
       })
 
       $("#enviarcontacto").on("click", function() {
-        alert("Mensaje enviado... \n Pronto te contactaremos.")
-        $("#exampleModal").modal('hide');
+        
+        let nombre = document.getElementById('nombre').value
+        let telefono = document.getElementById('telefono').value
+        let correo = document.getElementById('correo').value
+        let mensaje = document.getElementById('mensaje').value
+        
+        if(!nombre && !telefono && !correo && !mensaje){
+          alert("ingrese datos")
+        }else{
+          $("#exampleModal").modal('hide');
+          alert("Proto de contactaremos")
+        }
         
       })
 
